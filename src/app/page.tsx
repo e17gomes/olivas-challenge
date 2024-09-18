@@ -1,9 +1,11 @@
-import LogoHeader from "@/components/ui/Logo-header";
+import Header from "@/components/layout/Header";
+import SobreTeste from "@/components/layout/Main";
 
 export default function Home() {
   return (
     <>
-      <LogoHeader widthSize="120" heightSize="64"/>
+    <Header/>
+    <SobreTeste/>
     </>
   );
 }

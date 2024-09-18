@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 type buttonT = {
-    className:string,
+    className?:string,
     children?: ReactNode
 }
 

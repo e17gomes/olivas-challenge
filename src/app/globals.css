@@ -20,3 +20,8 @@
     text-wrap: balance;
   }
 }
+
+
+.title{
+@apply  text-5xl font-extrabold;
+}

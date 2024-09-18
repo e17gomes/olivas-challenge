@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter } from 'next/font/google';
+import { Fira_Sans } from 'next/font/google';
 
 
-const inter = Inter({ subsets: ['latin'] });
+const fira = Fira_Sans({
+  weight: '400',
+  subsets: ['latin']  
+});
 
 
 export const metadata: Metadata = {
@@ -19,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} antialiased`}
+        className={`${fira.className} antialiased`}
       >
         {children}
       </body>

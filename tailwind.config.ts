@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        Ybutton: "rgba(198, 185, 45, 1)",
+        menu_gray: "rgba(127, 127, 127, 1)",
+        title_gray: "rgba(93, 93, 93, 1)"
+
       },
     },
   },
