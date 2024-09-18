@@ -6,7 +6,7 @@ import peao from "@/assets/peao.png"
 const Performance = () => {
     return (
         <section>
-            <div className="flex flex-col gap-16">
+            <div className="flex flex-col gap-16 p-16">
                 <h1 className="title text-icons_color text-center">
                     Acelere o seu site e melhore sua Performance!
                 </h1>

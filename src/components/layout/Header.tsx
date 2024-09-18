@@ -35,7 +35,7 @@ href={item.link}
 
   return (
     <motion.header
-    className="w-full h-28 sticky top-0 bg-white/80 py-2.5 px-[55px]"
+    className="w-full h-28 sticky top-0 bg-white/95 py-2.5 px-[55px]"
     initial={{opacity:1}}
     >
       <div className="flex justify-around items-center">
