@@ -18,15 +18,7 @@ export default function Footer() {
             <p className="text-xs text-gray-600 mb-2">+55 (11) 2391-6090</p>
             <div className="flex justify-end space-x-2">
               <p className="text-xs text-gray-600">Redes Sociais</p>
-              <a href="#" className="text-gray-400">
-                <img src="/placeholder.svg?height=20&width=20" alt="Facebook" className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400">
-                <img src="/placeholder.svg?height=20&width=20" alt="Instagram" className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400">
-                <img src="/placeholder.svg?height=20&width=20" alt="LinkedIn" className="h-5 w-5" />
-              </a>
+
             </div>
           </div>
         </div>

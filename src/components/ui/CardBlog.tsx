@@ -1,12 +1,18 @@
+"use client"
 import Image from "next/image";
 import { ButtonInverse } from "../ui/Button";
 import { FC } from "react";
 import CardType from "@/types/CardType";
 
 
+
 const CardBlog: FC<CardType> = ({ ImageCard, Text, Title }) => {
+
+    
     return (
-        <div className="shadow-multiple rounded-3xl p-6 w-96 h-[29rem]">
+        <div 
+        className="shadow-multiple rounded-3xl p-6 mb-7 w-96 h-[29rem]"
+        >
             <div className="flex flex-col gap-6">
                 <section
                     className="bg-red-200 w-full h-44 m-auto rounded-lg"

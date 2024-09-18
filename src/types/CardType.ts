@@ -1,6 +1,6 @@
 type CardType={
-    ImageCard:string,
-    Text:string,
-    Title:string
-}
+    ImageCard:string|undefined,
+    Text:string|undefined,
+    Title:string|undefined;}
+    
 export default CardType;

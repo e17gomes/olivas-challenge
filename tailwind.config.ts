@@ -15,7 +15,8 @@ const config: Config = {
         Ybutton: "rgba(198, 185, 45, 1)",
         menu_gray: "rgba(127, 127, 127, 1)",
         title_gray: "rgba(93, 93, 93, 1)",
-        icons_color:"rgba(106, 15, 101, 1)"
+        icons_color:"rgba(106, 15, 101, 1)",
+        circle_session: "rgba(159, 147, 22, 1)"
 
       },
       
