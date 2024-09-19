@@ -1,11 +1,11 @@
 import { Button } from "../ui/Button"
 import RendSessions from "@/components/ui/rendSessions"
-// import CardBlog from "../ui/CardBlog"
-import PostsApi from "@/api/api-blog"
+import BlogList from "../ui/BlogList"
+
 
 
 const Blog = () => {
-PostsApi()
+
 
     return (
         <section className="pb-14 flex flex-col items-center gap-6">
@@ -17,12 +17,12 @@ PostsApi()
                         Blog
                     </span>
                 </h1>
-            {/* <CardBlog/> */}
+                <BlogList />
             </article>
             <div className="flex flex-col items-center gap-4">
 
-            <RendSessions/>
-            <Button>Veja mais</Button>
+
+                <Button>Veja mais</Button>
             </div>
         </section>
     )

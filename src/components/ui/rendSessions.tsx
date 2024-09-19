@@ -1,27 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { FC } from "react";
 
-const RendSessions = () => {
-  const [indexFocus, setIndexFocus] = useState<number>(0);
+interface RendSessionsProps {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+}
 
-  const handleFocus = (index: number) => {
-    setIndexFocus(index); // Atualiza o índice ao clicar
-  };
+const RendSessions: FC<RendSessionsProps> = ({ currentPage, totalPages, onPageChange }) => {
+  const pagesToShow = 3;
 
-  const sessions = [1, 2, 3];
+  // Define a página inicial e final a serem exibidas
+  const startPage = Math.max(1, currentPage - Math.floor(pagesToShow / 2));
+  const endPage = Math.min(totalPages, startPage + pagesToShow - 1);
+
+  // Ajusta o início das páginas a serem exibidas
+  const adjustedStartPage = Math.max(1, endPage - pagesToShow + 1);
+  const pages = Array.from({ length: endPage - adjustedStartPage + 1 }, (_, i) => adjustedStartPage + i);
 
   return (
-    <div className="flex gap-2 text-transparent select-none ease-in-out duration-300">
-      {sessions.map((session, index) => (
+    <div className="flex gap-2 pt-6 text-transparent select-none ease-in-out duration-300">
+      {pages.map((page) => (
         <li
-          key={index}
-          onClick={() => handleFocus(index)} // Atualiza o índice ao clicar
+          key={page}
+          onClick={() => onPageChange(page)} // Passa o número da página para a função de mudança
           className={`h-5 w-5 rounded-full cursor-pointer flex items-center justify-center transition-colors duration-300 ease-in-out ${
-            indexFocus === index ? "bg-circle_session" : "bg-gray-200"
+            currentPage === page ? "bg-circle_session" : "bg-gray-200"
           }`}
         >
-          {session}
+          {page}
         </li>
       ))}
     </div>
