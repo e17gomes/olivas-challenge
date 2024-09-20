@@ -11,7 +11,7 @@ const Blog = () => {
         <section className="pb-14 flex flex-col items-center gap-6">
             <article className="flex flex-col gap-6 items-center justify-center w-5/6 m-auto ">
                 <h1
-                    className="title text-center text-title_gray">
+                    className="text-2xl md:text-5xl font-extrabold text-center text-title_gray">
                     Últimas do {' '}
                     <span className="text-icons_color">
                         Blog

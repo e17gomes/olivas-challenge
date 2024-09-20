@@ -41,14 +41,14 @@ const SEO = () => {
             <div className="py-[5.6rem] flex flex-row gap-2 items-center justify-center w-5/6 m-auto">
 
                 <article className="shadow-multiple rounded-[2rem]">
-                    <h1 className='title text-title_gray text-center'>
+                    <h1 className='text-2xl md:text-5xl font-extrabold text-title_gray text-center'>
                         SEO, ou {' '}
                         <span className='text-Ybutton'>
                             otimização
                         </span>
                     </h1>
 
-                    <section className="grid grid-cols-2 justify-center items-center text-title_gray p-8 text-lg">
+                    <section className="grid md:grid-cols-2  justify-center items-center text-title_gray p-8 text-xs md:text-lg">
                         <div>É uma estratégia crucial para melhorar a visibilidade e o ranking de um site nos resultados de pesquisa orgânica de motores de busca como Google, Bing e Yahoo.  A prática de SEO envolve uma série de técnicas e metodologias que visam otimizar aspectos internos e externos de um website para torná-lo mais atrativo
 
                          
@@ -61,7 +61,7 @@ const SEO = () => {
                             
                          </div>
                         <div className="flex items-center justify-center">
-                            <Image src={imagePC} alt="" width={468} height={416}/>
+                            <Image src={imagePC} alt="SEO" width={468} height={416}/>
                         </div>
                     </section>
                 </article>

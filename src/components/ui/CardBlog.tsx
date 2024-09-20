@@ -12,7 +12,7 @@ const CardBlog: FC<CardType> = ({ ImageCard, Text, Title, LinkP }) => {
 
     return (
         <div 
-        className="shadow-multiple rounded-3xl p-6 mb-7 w-96 h-[29rem]"
+        className="shadow-multiple rounded-3xl p-6 mb-7 w-fit md:w-96 h-fit md:h-[29rem]"
         >
             <div className="flex flex-col gap-6">
                 <section

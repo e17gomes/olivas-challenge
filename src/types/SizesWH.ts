@@ -1,6 +1,7 @@
 type sizesLogo = {
-        widthSize: string,
-        heightSize:string
+        widthSize?: string,
+        heightSize?:string,
+        className?:string
 }
 
 export default sizesLogo
