@@ -5,7 +5,9 @@ import Header from "@/components/layout/Header";
 import SobreTeste from "@/components/layout/Main";
 import Performance from "@/components/layout/Performance";
 import SEO from "@/components/layout/SEO";
+import Floater from "@/components/ui/Floater";
 
+Floater
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
     <Performance/>
     <Blog/>
     <FormDesk/>
+    <Floater/>
     <Footer/>
     
     </>
