@@ -168,7 +168,7 @@ export interface Breadcrumb {
 
 export interface PotentialAction {
   "@type": string
-  target: any
+  
   "query-input"?: QueryInput
 }
 
