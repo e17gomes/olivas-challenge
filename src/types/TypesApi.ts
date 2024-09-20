@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export type Root = GetNewsType[]
 
 export interface GetNewsType {
@@ -168,7 +170,7 @@ export interface Breadcrumb {
 
 export interface PotentialAction {
   "@type": string
-  
+  target: any
   "query-input"?: QueryInput
 }
 
