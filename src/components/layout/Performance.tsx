@@ -5,7 +5,7 @@ import ima from "@/assets/ima.png"
 import peao from "@/assets/peao.png"
 const Performance = () => {
     return (
-        <section>
+        <section id="PFM">
             <div className="flex flex-col gap-4 md:gap-16 p-4 md:p-16">
                 <h1 className="text-2xl font-extrabold md:text-5xl text-icons_color text-center">
                     Acelere o seu site e melhore sua Performance!
@@ -15,7 +15,7 @@ const Performance = () => {
                     <div>
                         <Image src={Affiliate} alt={"Marketing"} className=" md:block"/>
                     </div>
-                    <div className="w-full md:w-[36.8rem] h-[19.3rem] text-title_gray flex flex-col space-y-3 md:space-y-6">
+                    <div className="w-full md:w-[36.8rem] md:h-[19.3rem] text-title_gray flex flex-col space-y-3 md:space-y-6">
                         <h2 className="text-xl md:text-3xl font-bold">
                             Para {' '}
                             <span className="text-Ybutton">

@@ -46,7 +46,7 @@ const BlogList: FC = () => {
 
     return (
         <div className="flex flex-col items-center">
-            <div className="flex flex-wrap justify-center gap-6">
+            <div className="flex flex-wrap md:flex-nowrap justify-center gap-6">
                 {currentPosts.map((post) => (
                     <CardBlog
                         key={post.id}

@@ -25,7 +25,7 @@ const NavBarDesk = () => {
   ));
   return (
     <div className="md:flex justify-around items-center hidden ">
-    <LogoHeader/>
+    <LogoHeader widthSize="w-72"/>
     
     <nav className="flex gap-8 justify-center items-center">
       {search ? (

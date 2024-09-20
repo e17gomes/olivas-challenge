@@ -36,7 +36,7 @@ const SEO = () => {
     ))
  
     return (
-        <section>
+        <section id="SEO">
 
             <div className="py-[5.6rem] flex flex-row gap-2 items-center justify-center w-5/6 m-auto">
 

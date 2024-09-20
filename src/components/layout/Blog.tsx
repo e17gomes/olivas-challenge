@@ -1,5 +1,4 @@
 import { Button } from "../ui/Button"
-import RendSessions from "@/components/ui/rendSessions"
 import BlogList from "../ui/BlogList"
 
 
@@ -8,7 +7,8 @@ const Blog = () => {
 
 
     return (
-        <section className="pb-14 flex flex-col items-center gap-6">
+        <section id="BLG" 
+         className="pb-14 flex flex-col items-center gap-6">
             <article className="flex flex-col gap-6 items-center justify-center w-5/6 m-auto ">
                 <h1
                     className="text-2xl md:text-5xl font-extrabold text-center text-title_gray">
